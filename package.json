@@ -1,0 +1,23 @@
+{
+  "name": "flash-loan-bot",
+  "version": "1.0.0",
+  "description": "Flash Loan Bot",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.10.0",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.6.1"
+  }
+}

@@ -1,0 +1,22 @@
+# 1. 依赖包 (巨大，千万别传)
+node_modules/
+
+# 2. 环境变量 (⚠️绝对不能传！里面有私钥！)
+.env
+
+# 3. Hardhat 编译缓存 (很大，不需要传)
+artifacts/
+cache/
+typechain-types/
+
+# 4. 测试覆盖率报告
+coverage/
+coverage.json
+
+# 5. 系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 6. IDE 配置 (可选，如果你不想别人看到你的编辑器设置)
+.idea/
+.vscode/
